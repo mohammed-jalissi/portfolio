@@ -19,13 +19,14 @@ const Hero = () => {
             </div>
             
             <p className="text-xl md:text-2xl text-muted-foreground font-light">
-              Élève Ingénieur en Logistique et Industrie
+              Élève Ingénieur en Industrie et logistique
             </p>
             
             <p className="text-lg text-muted-foreground leading-relaxed max-w-xl">
               Étudiant en ingénierie industrielle et logistique à l'ENSA Berrechid, passionné par 
-              l'optimisation des processus et l'amélioration continue. Compétences en analyse des flux 
-              de production, logistique, et gestion de la chaîne d'approvisionnement (SCM).
+              la digitalisation des processus industriels, l'Industrie 4.0 et l'application de l'intelligence 
+              artificielle au génie industriel. Intéressé par l'optimisation de la performance, l'automatisation 
+              et la transformation numérique de la chaîne logistique et de la production.
             </p>
             
             <div className="flex flex-col sm:flex-row gap-4 pt-4">

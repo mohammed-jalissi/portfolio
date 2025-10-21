@@ -5,34 +5,42 @@ import { Folder, Play, Image as ImageIcon } from "lucide-react";
 
 const projects = [
   {
-    title: "Optimisation Four de Séchage - OCP",
-    description: "Développement d'un outil VBA complet pour l'optimisation de la disponibilité du four de séchage 7 via la méthode DMAIC. L'outil permet l'enregistrement des pannes, le calcul automatique des KPI (MTBF, MTTR, TRS), et la génération de tableaux de bord.",
-    tags: ["VBA", "DMAIC", "KPI", "Optimisation"],
+    title: "Logigame (Beer Game)",
+    description: "Développement d'un jeu en VBA pour l'apprentissage de la gestion de la chaîne d'approvisionnement. Simulation interactive permettant de comprendre les dynamiques de la supply chain et l'effet bullwhip.",
+    tags: ["VBA", "Supply Chain", "Simulation", "Apprentissage"],
+    category: "Logistique",
+    hasVideo: true,
+    hasImages: true
+  },
+  {
+    title: "Outils d'aide à la décision (AHP & ELECTRE)",
+    description: "Automatisation des méthodes multicritères pour faciliter l'analyse et la prise de décision. Implémentation des algorithmes AHP et ELECTRE pour l'évaluation et la sélection des alternatives.",
+    tags: ["AHP", "ELECTRE", "Aide à la décision", "Automatisation"],
+    category: "Analyse décisionnelle",
+    hasVideo: true,
+    hasImages: true
+  },
+  {
+    title: "Système d'information entrepôt (WMS/TMS)",
+    description: "Conception d'un SI complet incluant gestion des produits, achats, stockage et transport. Solution intégrée pour optimiser les opérations d'entreposage et le management des flux logistiques.",
+    tags: ["WMS", "TMS", "Système d'information", "Logistique"],
+    category: "Système d'information",
+    hasVideo: true,
+    hasImages: true
+  },
+  {
+    title: "Robot préparateur de commandes intelligent",
+    description: "Robot mobile automatisé via IA et caméra pour reconnaissance visuelle et optimisation des opérations. Solution innovante combinant robotique, vision par ordinateur et intelligence artificielle pour l'automatisation de la préparation de commandes.",
+    tags: ["IA", "Robotique", "Vision par ordinateur", "Automatisation"],
     category: "Industrie 4.0",
     hasVideo: true,
     hasImages: true
   },
   {
-    title: "Analyse AMDEC - Broyeur Plastique",
-    description: "Réalisation d'une analyse AMDEC complète sur un broyeur plastique chez Elec Recyclage. Élaboration d'un plan de maintenance préventive, codification des pièces de rechange et développement d'un système de gestion de stock sous Excel.",
-    tags: ["AMDEC", "Maintenance", "Excel", "Gestion"],
-    category: "Maintenance",
-    hasVideo: false,
-    hasImages: true
-  },
-  {
-    title: "Applications Desktop Python",
-    description: "Développement d'applications desktop interactives pour la logistique et l'industrie utilisant Tkinter et PyQt5. Outils métiers personnalisés pour l'optimisation des processus industriels.",
-    tags: ["Python", "Tkinter", "PyQt5", "Desktop"],
-    category: "Développement",
-    hasVideo: true,
-    hasImages: true
-  },
-  {
-    title: "Tableaux de Bord Power BI",
-    description: "Création de tableaux de bord interactifs pour l'analyse et la visualisation des données industrielles. Suivi en temps réel des KPI et aide à la prise de décision.",
-    tags: ["Power BI", "KPI", "Visualisation", "Analytics"],
-    category: "Data Analytics",
+    title: "Outil d'audit logistique (AHP & SCOR)",
+    description: "Sélection des KPI pertinents par processus avec tableau de bord dynamique. Application des méthodologies AHP et SCOR pour l'audit et l'amélioration continue des processus logistiques.",
+    tags: ["AHP", "SCOR", "KPI", "Audit logistique"],
+    category: "Performance",
     hasVideo: true,
     hasImages: true
   }

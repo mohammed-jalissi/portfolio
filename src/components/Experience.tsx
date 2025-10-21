@@ -4,11 +4,25 @@ import { Building2, Calendar, MapPin } from "lucide-react";
 
 const experiences = [
   {
+    period: "07/2025 – 08/2025",
+    company: "Yazaki",
+    location: "Tanger",
+    position: "Stagiaire – Département Production (PFA)",
+    description: "Optimisation de l'OEE par digitalisation et analyse prédictive avec application de la méthodologie Six Sigma.",
+    achievements: [
+      "Optimisation de l'OEE par digitalisation et analyse prédictive",
+      "Tests statistiques Six Sigma et identification des axes d'amélioration",
+      "Développement d'un modèle prédictif machine learning pour l'OEE",
+      "Application de la méthodologie SMED et intégration du KPI TEEP"
+    ],
+    tags: ["OEE", "Six Sigma", "Machine Learning", "SMED", "TEEP"]
+  },
+  {
     period: "07/2024 – 08/2024",
     company: "OCP",
     location: "Benddir, Khouribga",
     position: "Stagiaire – Bureau des Méthodes",
-    description: "Optimisation de la disponibilité du four de séchage 7, le plus critique, à l'aide de la méthode DMAIC.",
+    description: "Optimisation de la disponibilité du four de séchage 7 via la méthode DMAIC.",
     achievements: [
       "Développement d'un outil VBA pour enregistrer les pannes",
       "Calcul des KPI (MTBF, MTTR, TRS)",
@@ -24,12 +38,12 @@ const experiences = [
     position: "Stagiaire – Département Maintenance (PFE Licence)",
     description: "Réalisation d'une analyse AMDEC sur un broyeur plastique et élaboration d'un plan de maintenance préventive.",
     achievements: [
-      "Analyse AMDEC complète sur broyeur plastique",
+      "Analyse AMDEC sur un broyeur plastique",
       "Élaboration d'un plan de maintenance préventive",
       "Codification des pièces de rechange",
-      "Intégration dans un outil Excel de gestion de stock"
+      "Intégration dans un outil de gestion"
     ],
-    tags: ["AMDEC", "Maintenance", "Excel", "Gestion de stock"]
+    tags: ["AMDEC", "Maintenance", "Codification", "Gestion"]
   }
 ];
 

@@ -6,8 +6,7 @@ import {
   Code, 
   Brain, 
   Wrench,
-  Database,
-  Languages
+  Database
 } from "lucide-react";
 
 const skillsData = [
@@ -86,11 +85,6 @@ const softwareData = [
   { icon: Code, name: "VBA / SPSS", description: "Automatisation & Statistiques" }
 ];
 
-const languagesData = [
-  { icon: Languages, name: "Arabe", level: "Langue maternelle" },
-  { icon: Languages, name: "Français", level: "Langue de formation" },
-  { icon: Languages, name: "Anglais", level: "Intermédiaire" }
-];
 
 const Skills = () => {
   return (
@@ -155,27 +149,6 @@ const Skills = () => {
                     <p className="text-sm text-muted-foreground">{software.description}</p>
                   </div>
                 </div>
-              </Card>
-            ))}
-          </div>
-        </div>
-
-        {/* Languages */}
-        <div>
-          <h3 className="text-3xl font-bold mb-8 text-center">
-            <span className="text-gradient">Langues</span>
-          </h3>
-          <div className="grid md:grid-cols-3 gap-4 max-w-3xl mx-auto">
-            {languagesData.map((language, index) => (
-              <Card 
-                key={index}
-                className="p-5 bg-card border-border hover:border-primary/50 card-hover text-center group"
-              >
-                <language.icon className="h-8 w-8 text-primary mx-auto mb-3" />
-                <h4 className="font-semibold text-lg group-hover:text-primary transition-colors">
-                  {language.name}
-                </h4>
-                <p className="text-sm text-muted-foreground">{language.level}</p>
               </Card>
             ))}
           </div>

@@ -1,48 +1,38 @@
 import { Card } from "@/components/ui/card";
 import { Badge } from "@/components/ui/badge";
 import { Button } from "@/components/ui/button";
-import { Folder, Play, Image as ImageIcon } from "lucide-react";
+import { Folder } from "lucide-react";
 
 const projects = [
   {
     title: "Logigame (Beer Game)",
-    description: "Développement d'un jeu en VBA pour l'apprentissage de la gestion de la chaîne d'approvisionnement. Simulation interactive permettant de comprendre les dynamiques de la supply chain et l'effet bullwhip.",
+    description: "Développement d'un jeu en VBA pour l'apprentissage de la gestion de la chaîne d'approvisionnement.",
     tags: ["VBA", "Supply Chain", "Simulation", "Apprentissage"],
-    category: "Logistique",
-    hasVideo: true,
-    hasImages: true
+    category: "Logistique"
   },
   {
     title: "Outils d'aide à la décision (AHP & ELECTRE)",
-    description: "Automatisation des méthodes multicritères pour faciliter l'analyse et la prise de décision. Implémentation des algorithmes AHP et ELECTRE pour l'évaluation et la sélection des alternatives.",
+    description: "Automatisation des méthodes multicritères pour faciliter l'analyse et la prise de décision.",
     tags: ["AHP", "ELECTRE", "Aide à la décision", "Automatisation"],
-    category: "Analyse décisionnelle",
-    hasVideo: true,
-    hasImages: true
+    category: "Analyse décisionnelle"
   },
   {
     title: "Système d'information entrepôt (WMS/TMS)",
-    description: "Conception d'un SI complet incluant gestion des produits, achats, stockage et transport. Solution intégrée pour optimiser les opérations d'entreposage et le management des flux logistiques.",
+    description: "Conception d'un SI complet incluant gestion des produits, achats, stockage et transport.",
     tags: ["WMS", "TMS", "Système d'information", "Logistique"],
-    category: "Système d'information",
-    hasVideo: true,
-    hasImages: true
+    category: "Système d'information"
   },
   {
     title: "Robot préparateur de commandes intelligent",
-    description: "Robot mobile automatisé via IA et caméra pour reconnaissance visuelle et optimisation des opérations. Solution innovante combinant robotique, vision par ordinateur et intelligence artificielle pour l'automatisation de la préparation de commandes.",
+    description: "Robot mobile automatisé via IA et caméra pour reconnaissance visuelle et optimisation des opérations.",
     tags: ["IA", "Robotique", "Vision par ordinateur", "Automatisation"],
-    category: "Industrie 4.0",
-    hasVideo: true,
-    hasImages: true
+    category: "Industrie 4.0"
   },
   {
     title: "Outil d'audit logistique (AHP & SCOR)",
-    description: "Sélection des KPI pertinents par processus avec tableau de bord dynamique. Application des méthodologies AHP et SCOR pour l'audit et l'amélioration continue des processus logistiques.",
+    description: "Sélection des KPI pertinents par processus avec tableau de bord dynamique.",
     tags: ["AHP", "SCOR", "KPI", "Audit logistique"],
-    category: "Performance",
-    hasVideo: true,
-    hasImages: true
+    category: "Performance"
   }
 ];
 
@@ -100,29 +90,6 @@ const Projects = () => {
                     {tag}
                   </Badge>
                 ))}
-              </div>
-
-              {/* Media Placeholder */}
-              <div className="border-2 border-dashed border-border rounded-lg p-8 mb-4 text-center bg-secondary/30">
-                <div className="flex flex-col items-center gap-3">
-                  <div className="flex gap-4">
-                    {project.hasVideo && (
-                      <div className="flex items-center gap-2 text-muted-foreground">
-                        <Play className="h-5 w-5 text-primary" />
-                        <span className="text-sm">Vidéo à venir</span>
-                      </div>
-                    )}
-                    {project.hasImages && (
-                      <div className="flex items-center gap-2 text-muted-foreground">
-                        <ImageIcon className="h-5 w-5 text-primary" />
-                        <span className="text-sm">Photos à venir</span>
-                      </div>
-                    )}
-                  </div>
-                  <p className="text-xs text-muted-foreground">
-                    Espace réservé pour le contenu multimédia
-                  </p>
-                </div>
               </div>
 
               {/* Action Button */}

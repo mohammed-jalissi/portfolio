@@ -78,8 +78,15 @@ const Contact = () => {
                     size="icon" 
                     variant="outline"
                     className="border-primary/50 hover:bg-primary/10 hover:border-primary"
+                    asChild
                   >
-                    <Linkedin className="h-5 w-5" />
+                    <a 
+                      href="https://www.linkedin.com/in/mohammed-jalissi-b6404824a/" 
+                      target="_blank" 
+                      rel="noopener noreferrer"
+                    >
+                      <Linkedin className="h-5 w-5" />
+                    </a>
                   </Button>
                   <Button 
                     size="icon" 
